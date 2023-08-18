@@ -1,0 +1,213 @@
+@font-face {
+    font-family: 'aeonik_trialregular';
+    src: url('./fonts/aeoniktrial-regular-webfont.woff2') format('woff2'),
+         url('./fonts//aeoniktrial-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  };
+  @font-face {
+    font-family: 'Made_Mellow_Bold';
+    src: url('./fonts/MADEMellowPERSONALUSE-Bold.woff2');
+  };
+  @font-face {
+    font-family: 'Made_Mellow_Light';
+    src: url('./fonts//MADEMellowPERSONALUSE-Light.woff2');
+  };
+
+
+$first_color : #FFFFFF ;
+
+
+
+// Contact color
+$button1:#11453B;
+$button2:#F2F1F1;
+
+// Nav footer color
+
+$text_color : #7C7C7C;
+$text-bold : #292A29;
+$text:#515251;
+
+// Home color
+$head:#292A29;
+$head_1:#11453B;
+$head_2:#B4A572;
+$head_3:#EA4E4B;
+
+// Indiv color
+$color1:#F0F7EB;
+
+
+
+// Nav
+.nav-text{
+    font-size: 16px;
+    font-family: 'aeonik_trialregular';
+    line-height: 24px;
+    color: $text;
+}
+.nav-button-1{
+    font-family: 'aeonik_trialregular';
+    font-size: 14px;
+    line-height: 20px;
+  color: $button1;
+    background-color: white !important;
+    border: 1px solid $button1;
+   
+}
+.nav-button-2{
+    font-family: 'aeonik_trialregular';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: white;
+    background-color: $button1;
+
+
+}
+// Home
+
+.head-1{
+    color: $head;
+
+}
+.head-2{
+    color: $head_1;
+}
+.head-3{
+    color: $head_2;
+}
+.head-4{
+    color: $head_3;
+}
+.home-button{
+    background-color: $head_1;
+    color: #FFFFFF;
+}
+.home-par{
+    color: $text;
+    width: 50%;
+    text-align: justify;
+}
+
+// Indiv
+
+.indiv{
+    background-color: $color1;
+}
+.card{
+    background: radial-gradient(50% 50% at 50% 50%,rgba(217,235,205,.14) 0,rgba(217,235,205,.0266) 100%),#11453b;
+    box-shadow: 0 13px 20px hsla(0,0%,9%,.2), -11px 0 19px hsla(0,0%,9%,.3);
+    padding: 60px 50px;
+    
+    font-family:'aeonik_trialregular' ;
+    width: 552px;
+    height: 280px;
+    color: white;
+}
+.indiv-head{
+  color: $button1;
+  font-size: 64px;
+  font-weight: 900;
+  font-family:'Made_Mellow_Light' ;
+}
+
+.indiv-text{
+    color: $text-bold;
+    font-size: 20px ;
+    line-height: 24px;
+    font-family:'aeonik_trialregular' ;
+}
+.indiv-text2{
+    color: #515251;
+    font-family:'aeonik_trialregular' ;
+    font-size: 20px;
+    line-height: 24px;
+}
+.indiv-text3{
+    color: #EA4E4B;
+    font-family:'aeonik_trialregular' ;
+    font-size: 20px;
+    line-height: 24px;
+}
+.indiv-text5{
+    width: 40%;
+}
+
+
+
+// how
+.how-head{
+    color:$button1 ;
+    font-size: 64px;
+    font-family:'Made_Mellow_Light' ;
+    font-weight: bold;
+}
+.how-text{
+    color: $text;
+    font-family: 'aeonik_trialregular';
+    font-size: 28px;
+    line-height: 36px;
+}
+// payment
+.payment-head-1{
+    font-family:'Made_Mellow_Light' ;
+    font-weight: bold;
+    color: $text-bold;
+    font-size: 60px;
+    line-height: 64px;
+
+}
+.payment-head-2{
+    font-family:'Made_Mellow_Light' ;
+    font-weight: bold;
+    color: $head_3;
+    font-size: 60px;
+    line-height: 64px;
+}
+.payment-head{
+    width: 45%;
+}
+
+.payment-text{
+    font-family:'aeonik_trialregular' ;
+    font-weight: 400;
+    font-size: 18px;
+    color: $text-bold;
+    line-height: 24px;
+}
+// Contact
+
+.card-title{
+    color: $text-bold;
+    font-size: 28px;
+}
+.button-1{
+    background-color: $button1;
+    font-family: 'aeonik_trialregular';
+    font-size: 14px;
+    font-weight: 500;
+}
+.button-2{
+    background-color: $button2;
+    color: $text;
+    font-size: 14px;
+}
+
+
+// footer
+.text{
+    color: $text_color;
+}
+
+.text-bold{
+    color: $text-bold;
+}
+
+.input-footer::placeholder{
+    color: $text;
+}
+
+

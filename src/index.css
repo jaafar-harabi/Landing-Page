@@ -1,0 +1,299 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: 'aeonik_trialregular';
+  src: url('./fonts/aeoniktrial-regular-webfont.woff2') format('woff2'),
+       url('./fonts//aeoniktrial-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Made_Mellow_Bold';
+  src: url('./fonts/MADEMellowPERSONALUSE-Bold.woff2');
+}
+@font-face {
+  font-family: 'Made_Mellow_Light';
+  src: url('./fonts//MADEMellowPERSONALUSE-Light.woff2');
+}
+body{
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  
+  
+}
+
+.text{
+  font-family: 'aeonik_trialregular';
+  font-size: 16px;
+  line-height: 24px;
+}
+.text-bold{
+  font-family: 'aeonik_trialregular';
+  font-size: 20px;
+  font-weight: 700;
+
+}
+
+/* head */
+
+.nav-bg{
+  background: url('./assets/gradients.png') center center/cover;
+  
+  color: #515251;
+  font-size: 16px;
+  line-height: 24px;
+}
+/* Home */
+
+.home-bg{
+ background-color: white;
+  background: url('./assets//gradients.png') center center/cover;
+}
+.text-h{
+  font-size: 64px;
+  font-family: 'Made_Mellow_Light';
+  font-weight: bold;
+  width: 60%;
+  text-align: center;
+  line-height: 72px;
+  
+}
+
+.home-button{
+  text-transform: capitalize;
+  font-size: 16px;
+  font-family: ;
+  font-weight: lighter;
+  line-height: 24px;
+  width: 272px;
+}
+
+.home-par2{
+  color: #000000;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: 'aeonik_trialregular';
+  font-weight: 500;
+}
+/* indivBussiness */
+
+.card-1{
+  z-index: 9997;
+  margin-left: 180px;
+
+}
+.card-2{
+  z-index: 9998;
+  margin-left: 460px;
+}
+.card-3{
+  z-index: 9999;
+  margin-left: 750px;
+}
+
+
+.card-title1{
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 700;
+
+}
+.card-body{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+
+/* how */
+
+
+.phone{
+  z-index: 9999;
+}
+.bg{
+  z-index: -1;
+  left:8%;
+  
+}
+
+/* Payments */
+
+.bg-payment{
+  background: url('./assets/Intersect.png') center center/cover;
+}
+
+/* contact */
+.card-width{
+  width: 450px;
+}
+
+.border-class{
+  border: #E7E8E7 1.15px solid;
+}
+.contact-title{
+  color: #11453B;
+  font-size: 50px;
+  font-weight:  bold;
+  font-family: 'Made_Mellow_Light';
+  width: 50%;
+}
+.contact-text{
+  color: #515251;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  font-family:  'aeonik_trialregular';
+  text-align: justify;
+  width: 55%;
+}
+.image-responsive{
+  max-width: 100%;
+}
+
+/* footer */
+.copyright{
+  font-family: 'aeonik_trialregular';
+  font-size: 14px;
+  color: #515251;
+  line-height: 20px;
+  
+
+}
+
+.input-footer{
+  background-color: #F2F1F1;
+  
+}
+
+
+.input-footer::placeholder{
+  color:#F2F1F1;
+
+}
+
+
+/* // responsive */
+@media screen and (max-width:536px){
+  .image-responsive{
+    width: 25em !important;
+  }
+
+
+}
+
+@media screen and (max-width:535px){
+  .card-width{
+    max-width: 30em !important;
+  }
+  .text-h{
+    font-size: 36px !important;
+  }
+  .indiv-head{
+    font-size: 36px !important;
+
+  }
+  .how-head{
+    font-size: 36px !important;
+
+  }
+  .payment-head{
+    font-size: 36px !important;
+  }
+  .payment-head-1{
+    font-size: 36px !important;
+
+  }
+  .payment-head-2{
+    font-size: 36px !important;
+
+  }
+  .btn-responsive{
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .contact-title{
+    font-size: 36px !important;
+  }
+  .home-btn{
+    font-size: 14px;
+    width: 200px;
+  }
+  .logo-hd{
+    margin-left: 10px !important;
+  }
+
+}
+
+.head-logo{
+  min-width: 200px;
+}
+.icon-hd{
+  position: absolute !important;
+  margin-right: 0 !important;
+  top: 30% !important;
+  right: 10%;
+}
+
+
+@media screen and (max-width:1320px){
+  .card{
+    position:  relative !important;
+    
+    
+    
+    
+
+    
+    visibility: visible !important;
+    position: relative !important; 
+    background: radial-gradient(50% 50% at 50% 50%,rgba(217,235,205,.14) 0,rgba(217,235,205,.0266) 100%),#11453b;
+    box-shadow: 0 13px 20px hsla(0,0%,9%,.2), -11px 0 19px hsla(0,0%,9%,.3);
+    padding: 60px 50px;
+    
+    font-family:'aeonik_trialregular' ;
+    max-width: 550px !important;
+    height: 280px;
+    color: white;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 20px !important;
+  }
+  .card-rs{
+    display: block !important;
+    flex-direction: row !important;
+    
+  }
+}
+
+@media screen and (max-width:550px){
+  .card{
+    padding: 10px !important;
+    max-width: 350px !important;
+    height: 230px !important;
+    
+  }
+  .card-title1{
+    font-size: 20px !important;
+  }
+  .card-body{
+    font-size: 14px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+@media screen and (max-width:400px){
+  .card{
+    padding: 10px !important;
+    max-width: 300px !important;
+    height: 280px !important;
+  }
+  .card-body{
+    padding-bottom: 10px !important;
+  }
+}
+
